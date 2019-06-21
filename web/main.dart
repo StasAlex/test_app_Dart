@@ -7,8 +7,8 @@ randomColor(){
   var g = random.nextInt(256).toRadixString(16);
   var b = random.nextInt(256).toRadixString(16);
   var hash  = '#';
-  var col = hash + r + g + b;
-  return col;
+  var color = hash + r + g + b;
+  return color;
 }
 onChangeBg(){
   var body = document.body;
